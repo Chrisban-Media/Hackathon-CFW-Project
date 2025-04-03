@@ -39,13 +39,13 @@
     height: 100vh;
     margin: 0 auto;
     width: 100%;
-    margin-left: 40px;
+    margin-left: 60px;
   }
 
   .bounce {
     font-size: 60px;
     animation: bounceIn 1s ease-in-out infinite;
-    color: rgb(102, 0, 255);
+    color: rgb(159, 95, 255);
   }
 }
 

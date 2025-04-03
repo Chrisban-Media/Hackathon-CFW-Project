@@ -229,7 +229,7 @@ footer p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgb(102, 0, 255);
+    color: rgb(167, 108, 255);
     font-size: 70px;
     font-weight: 500;
   }
@@ -257,6 +257,7 @@ footer p {
     font-weight: bold;
     justify-content: center;
     align-items: center;
+    margin-right: 4%;
   }
   #form-intro p {
     justify-content: center;
@@ -264,7 +265,7 @@ footer p {
     text-align: center;
     margin-top: 1%;
     font-size: 15px;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 10%;
   }
   .hide-br {
@@ -280,7 +281,7 @@ footer p {
 
   #name-box {
     /* margin-left: -5%; */
-    width: 80%;
+    width: 72%;
     height: 50px;
   }
 
@@ -289,7 +290,7 @@ footer p {
   }
 
   #info-box {
-    width: 80%;
+    width: 72%;
     height: 50px;
   }
 
@@ -299,7 +300,7 @@ footer p {
 
   #message-box {
     background-color: white;
-    width: 80%;
+    width: 72%;
     height: 80px;
   }
 
@@ -312,8 +313,8 @@ footer p {
   }
 
   .buttons {
-    margin-left: 11%;
-    margin-right: -10%;
+    margin-left: 6%;
+    margin-right: -2%;
   }
 
   #btn {
