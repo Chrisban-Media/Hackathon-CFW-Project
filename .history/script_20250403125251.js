@@ -1,5 +1,5 @@
 (function() {
-    emailjs.init("sk01ge5f4mHwbDolE");
+    emailjs.init("Gmail-Jared");
 })();
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
@@ -14,7 +14,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         message: document.getElementById("message").value
     };
 
-    emailjs.send("service_eotddyd", "template_oooqj68", templateParams)
+    emailjs.send("EguJaredoBoyd", "EguJaredoBoyd2", templateParams)
         .then(function(response) {
             console.log("SUCCESS!", response.status, response.text);
             alert("Message sent successfully!");

@@ -1,0 +1,32 @@
+#welcome-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  margin-left: 400px;
+}
+
+.bounce {
+  display: inline-block;
+  font-size: 100px;
+  width: 800px;
+  margin-bottom: 13%;
+  animation: bounceIn 1s ease-in-out infinite;
+  color: rgb(102, 0, 255);
+}
+
+.bounce:hover {
+  color: rgb(164, 104, 254);
+}
+
+@keyframes bounceIn {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-100px);
+  }
+}
