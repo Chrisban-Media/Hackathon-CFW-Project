@@ -1,0 +1,319 @@
+body {
+  background-image: url(images/dark.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  min-height: 80vh;
+}
+
+#web-head {
+  margin-top: -2%;
+  /* display: flex; */
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#web-head h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-weight: 700;
+}
+#web-head p {
+  display: flex;
+  margin-top: -3%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+#container {
+  background-color: rgba(65, 65, 65, 0.363);
+  /* background: linear-gradient(
+    to right,
+    rgba(174, 0, 255, 0.112),
+    rgba(89, 0, 255, 0.139)
+  ); */
+  border-radius: 8px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  padding-bottom: 4%;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* the introduction of the form box */
+#form-intro {
+  display: flex;
+  padding-top: 5%;
+  padding-left: 5%;
+  flex-direction: column;
+}
+/* targeting the h3 in the form-intro */
+#form-intro h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* targeting the p in the form-intro */
+#form-intro p {
+  margin-top: -2%;
+}
+
+/* this is the Form Control */
+#form-list {
+  display: grid;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+/* targeting the input in the contact list */
+#contact-form input {
+  margin-top: 10px;
+  margin-left: 50px;
+  background-color: rgba(255, 255, 255, 0.116);
+  outline: rgb(65, 0, 156);
+  border-radius: 8px;
+}
+
+/* this is the frsit and last name box */
+#name-box {
+  width: 22%;
+  height: 50px;
+}
+
+/* this is the Email and Tel. box */
+#info-box {
+  width: 50%;
+  height: 50px;
+}
+
+/* targeting the placeholder in the inputs */
+#contact-form input::placeholder {
+  color: rgb(170, 170, 170);
+  padding-left: 3%;
+}
+
+/* the message box */
+#message-box {
+  background-color: rgba(255, 255, 255, 0.116);
+  width: 508px;
+  resize: none;
+  height: 45px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+/* the message me placeholder */
+#message-box::placeholder {
+  padding-left: 3%;
+  padding-top: 3%;
+  color: rgb(170, 170, 170);
+  font-size: 15px;
+}
+
+/* the submit button */
+#btn {
+  margin-left: 50px;
+  margin-top: 5px;
+  background: linear-gradient(
+    to right,
+    rgb(60, 0, 87),
+    rgba(11, 11, 58, 0.897)
+  );
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  width: 230px;
+  height: 40px;
+}
+#btn:hover {
+  color: rgb(255, 196, 0);
+  background: linear-gradient(to right, rgba(9, 9, 94, 0.897), rgb(71, 4, 103));
+}
+
+.btns {
+  background: linear-gradient(
+    to right,
+    rgb(60, 0, 87),
+    rgba(11, 11, 58, 0.897)
+  );
+}
+
+/* form image */
+#scoop-img {
+  position: relative;
+}
+
+#scoop-img img {
+  margin-left: 58%;
+  margin-top: -90%;
+  margin-bottom: -4%;
+  border-radius: 8px;
+  width: 40%;
+  height: 550px;
+  opacity: 50%;
+  border: 1px solid white;
+}
+
+#scoop-img-text p {
+  color: white;
+  position: absolute;
+  top: 10%;
+  margin-left: 72%;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .text {
+  margin-bottom: 100%;
+  transform: rotate(90deg);
+  /* transform-origin: left top; */
+/* display: flex;
+} */
+
+footer {
+  position: relative;
+  background-color: rgb(31, 20, 94);
+  width: auto;
+  height: auto;
+  padding: 1rem;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  #web-head h1 {
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(102, 0, 255);
+    font-size: 70px;
+    font-weight: 500;
+  }
+
+  #web-head p {
+    margin-top: -3%;
+    color: white;
+    font-size: 20px;
+  }
+
+  #container {
+    background-color: rgba(65, 65, 65, 0.363);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15%;
+    background-image: url(images/rob.jpeg);
+    border: 1px solid rgb(143, 143, 143);
+    box-shadow: 0 4px 20px rgb(24, 29, 63);
+    opacity: 80%;
+  }
+
+  #form-intro h3 {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  #form-intro p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .hide-br {
+    display: none;
+  }
+
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  #name-box {
+    /* margin-left: -5%; */
+    width: 80%;
+    height: 50px;
+  }
+
+  #info-box {
+    width: 80%;
+    height: 50px;
+  }
+
+  #message-box {
+    width: 80%;
+    height: 80px;
+  }
+
+  #scoop-img {
+    display: none;
+  }
+
+  .buttons {
+    margin-left: 11%;
+    margin-right: -10%;
+  }
+
+  #btn {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      to right,
+      rgb(66, 0, 32),
+      rgba(26, 26, 91, 0.897)
+    );
+    width: 25%;
+    height: 40px;
+    font-size: 14px;
+  }
+  #btn:hover {
+    color: orange;
+    background-color: rgba(53, 40, 78, 0.582);
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+/* ==== Tablets Media Queries */
+@media screen and (max-width: 900px) {
+}
