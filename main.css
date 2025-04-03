@@ -229,7 +229,7 @@ footer p {
   }
 
   #container {
-    background-color: rgba(65, 65, 65, 0.363);
+    background-color: rgba(65, 65, 65, 0.817);
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 15%;
@@ -241,7 +241,7 @@ footer p {
 
   #form-intro h3 {
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     justify-content: center;
     align-items: center;
@@ -252,8 +252,8 @@ footer p {
     text-align: center;
     margin-top: 1%;
     font-size: 15px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .hide-br {
     display: none;
@@ -315,5 +315,34 @@ footer p {
 }
 
 /* ==== Tablets Media Queries */
-@media screen and (max-width: 900px) {
-}
+/* @media screen and (max-width: 900px) {
+  .imgs {
+    display: none;
+  }
+
+  #web-head h1:hover {
+    color: rgb(102, 0, 255);
+  }
+
+  #container {
+    background-image: url(images/ble.jpeg);
+    opacity: 80%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  #name-box {
+    width: 85%;
+    height: 50px;
+  }
+
+  #info-box {
+    width: 85%;
+    height: 50px;
+  }
+
+  #message-box {
+    width: 85%;
+    height: 100%;
+  }
+} */
