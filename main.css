@@ -26,7 +26,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: rgb(102, 0, 255);
+  color: rgb(189, 101, 0);
   font-size: 110px;
   font-weight: 700;
 }
@@ -151,25 +151,29 @@ main {
   margin-top: 5px;
   background: linear-gradient(
     to right,
-    rgb(60, 0, 87),
-    rgba(11, 11, 58, 0.897)
+    rgba(139, 79, 0, 0.897),
+    rgb(67, 33, 3)
   );
   border-radius: 8px;
-  color: white;
-  font-size: 15px;
+  color: whitesmoke;
+  font-size: 18px;
   width: 230px;
   height: 40px;
 }
 #btn:hover {
-  color: rgb(255, 196, 0);
-  background: linear-gradient(to right, rgba(9, 9, 94, 0.897), rgb(71, 4, 103));
+  color: rgb(226, 155, 0);
+  background: linear-gradient(
+    to right,
+    rgba(95, 95, 94, 0.897),
+    rgb(54, 52, 50)
+  );
 }
 
 .btns {
   background: linear-gradient(
     to right,
-    rgb(60, 0, 87),
-    rgba(11, 11, 58, 0.897)
+    rgb(182, 85, 0),
+    rgba(50, 34, 10, 0.897)
   );
 }
 
@@ -229,7 +233,8 @@ footer p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgb(167, 108, 255);
+    color: rgb(216, 112, 0);
+    /* color: rgb(167, 108, 255); */
     font-size: 70px;
     font-weight: 500;
   }
@@ -322,17 +327,22 @@ footer p {
     justify-content: center;
     align-items: center;
     background: linear-gradient(
+      to left,
+      rgb(152, 71, 0),
+      rgba(40, 28, 4, 0.897)
+    );
+    /* background: linear-gradient(
       to right,
       rgb(66, 0, 32),
       rgba(26, 26, 91, 0.897)
-    );
+    ); */
     width: 25%;
     height: 40px;
     font-size: 14px;
   }
   #btn:hover {
     color: orange;
-    background-color: rgba(53, 40, 78, 0.582);
+    background: rgba(93, 88, 82, 0.582);
   }
 
   footer {

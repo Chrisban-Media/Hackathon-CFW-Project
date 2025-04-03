@@ -13,11 +13,11 @@
   width: 800px;
   margin-bottom: 13%;
   animation: bounceIn 1s ease-in-out infinite;
-  color: rgb(102, 0, 255);
+  color: rgb(146, 78, 0);
 }
 
 .bounce:hover {
-  color: rgb(164, 104, 254);
+  color: rgb(255, 153, 0);
 }
 
 @keyframes bounceIn {
@@ -45,7 +45,7 @@
   .bounce {
     font-size: 60px;
     animation: bounceIn 1s ease-in-out infinite;
-    color: rgb(159, 95, 255);
+    color: rgb(255, 157, 0);
   }
 }
 
