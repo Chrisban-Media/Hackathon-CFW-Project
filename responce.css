@@ -1,0 +1,371 @@
+@media (max-width: 768px) {
+  #scoop-img {
+    display: none;
+  }
+  #container {
+    display: grid;
+    background-image: url(images/ble.jpeg);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 4%;
+    color: white;
+    border-radius: 8px;
+  }
+
+  #web-head {
+    margin-top: -5%;
+    /* display: flex; */
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #web-head h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 162, 255);
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  #web-head p {
+    font-size: 16px;
+    margin-top: -30px;
+  }
+
+  #form-intro {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* targeting the h3 in the form-intro */
+  #form-intro h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* targeting the p in the form-intro */
+  #form-intro p {
+    margin-top: -2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 11px;
+  }
+
+  .hide-br {
+    display: none;
+  }
+
+  #contact-form input {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 4px;
+    outline: rgb(65, 0, 156);
+  }
+
+  #name-box {
+    width: 280px;
+    height: 30px;
+  }
+
+  #message-box {
+    background-color: rgba(255, 255, 255, 0.116);
+    width: 280px;
+    resize: none;
+    height: 45px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  #info-box {
+    width: 280px;
+    height: 30px;
+  }
+
+  #btn {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 5px;
+    background: linear-gradient(
+      to right,
+      rgba(62, 7, 163, 0.897),
+      rgb(174, 0, 255)
+    );
+    border-radius: 8px;
+    color: white;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15%;
+  }
+}
+
+@media (max-width: 480px) {
+  #scoop-img {
+    display: none;
+  }
+  #container {
+    display: grid;
+    background-image: url(images/ble.jpeg);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 4%;
+    color: white;
+    border-radius: 8px;
+  }
+
+  #web-head {
+    margin-top: -5%;
+    /* display: flex; */
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #web-head h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 162, 255);
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  #web-head p {
+    font-size: 16px;
+    margin-top: -30px;
+  }
+
+  #form-intro {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* targeting the h3 in the form-intro */
+  #form-intro h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* targeting the p in the form-intro */
+  #form-intro p {
+    margin-top: -2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 11px;
+  }
+
+  .hide-br {
+    display: none;
+  }
+
+  #contact-form input {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 4px;
+    outline: rgb(65, 0, 156);
+  }
+
+  #form-list:hover {
+    background-color: rgb(0, 0, 255);
+  }
+
+  #name-box {
+    width: 280px;
+    height: 30px;
+  }
+
+  #message-box {
+    background-color: rgba(255, 255, 255, 0.116);
+    width: 280px;
+    resize: none;
+    height: 45px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  #info-box {
+    width: 280px;
+    height: 30px;
+  }
+
+  #btn {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 5px;
+    background: linear-gradient(
+      to right,
+      rgba(62, 7, 163, 0.897),
+      rgb(174, 0, 255)
+    );
+    border-radius: 8px;
+    color: white;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 800px) {
+  #scoop-img {
+    display: none;
+  }
+  #container {
+    display: grid;
+    background-image: url(images/robot.jpeg);
+    opacity: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 4%;
+    color: white;
+    border-radius: 8px;
+  }
+
+  #web-head {
+    margin-top: -5%;
+    /* display: flex; */
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #web-head h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 162, 255);
+    margin-top: 15%;
+    font-size: 70px;
+    font-weight: 700;
+  }
+
+  #web-head p {
+    font-size: 19px;
+    margin-top: -30px;
+  }
+
+  #form-intro {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* targeting the h3 in the form-intro */
+  #form-intro h3 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  /* targeting the p in the form-intro */
+  #form-intro p {
+    margin-top: -2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .hide-br {
+    display: none;
+  }
+
+  #contact-form input {
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 4px;
+    outline: rgb(65, 0, 156);
+  }
+
+  #name-box {
+    width: 280px;
+    height: 30px;
+  }
+
+  #message-box {
+    background-color: rgba(255, 255, 255, 0.116);
+    width: 86.5%;
+    resize: none;
+    height: 45px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+
+  #info-box {
+    width: 86.5%;
+    height: 30px;
+  }
+
+  #btn {
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5px;
+    background: linear-gradient(
+      to right,
+      rgba(49, 7, 7, 0.897),
+      rgb(12, 14, 77)
+    );
+    border-radius: 8px;
+    color: white;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15%;
+  }
+}

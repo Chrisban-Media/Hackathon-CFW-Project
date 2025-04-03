@@ -1,0 +1,252 @@
+body {
+  background-image: url(images/dark.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#web-head {
+  margin-top: -2%;
+  /* display: flex; */
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#web-head h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+}
+#web-head p {
+  display: flex;
+  margin-top: -3%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+#container {
+  background-color: rgba(65, 65, 65, 0.363);
+  /* background: linear-gradient(
+    to right,
+    rgba(174, 0, 255, 0.112),
+    rgba(89, 0, 255, 0.139)
+  ); */
+  border-radius: 8px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  padding-bottom: 4%;
+  color: white;
+  border-radius: 20px;
+}
+
+/* the introduction of the form box */
+#form-intro {
+  display: flex;
+  padding-top: 5%;
+  padding-left: 5%;
+  flex-direction: column;
+}
+/* targeting the h3 in the form-intro */
+#form-intro h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* targeting the p in the form-intro */
+#form-intro p {
+  margin-top: -2%;
+}
+
+/* this is the Form Control */
+#form-list {
+  display: grid;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+/* targeting the input in the contact list */
+#contact-form input {
+  margin-top: 10px;
+  margin-left: 50px;
+  background-color: rgba(255, 255, 255, 0.116);
+  outline: rgb(65, 0, 156);
+  border-radius: 8px;
+}
+
+/* this is the frsit and last name box */
+#name-box {
+  width: 22%;
+  height: 50px;
+}
+
+/* this is the Email and Tel. box */
+#info-box {
+  width: 50%;
+  height: 50px;
+}
+
+/* targeting the placeholder in the inputs */
+#contact-form input::placeholder {
+  color: rgb(170, 170, 170);
+  padding-left: 3%;
+}
+
+/* the message box */
+#message-box {
+  background-color: rgba(255, 255, 255, 0.116);
+  width: 510px;
+  resize: none;
+  height: 45px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+/* the message me placeholder */
+#message-box::placeholder {
+  padding-left: 3%;
+  padding-top: 3%;
+  color: rgb(170, 170, 170);
+  font-size: 15px;
+}
+
+/* the submit button */
+#btn {
+  margin-left: 50px;
+  margin-top: 5px;
+  background: linear-gradient(
+    to right,
+    rgb(60, 0, 87),
+    rgba(11, 11, 58, 0.897)
+  );
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  width: 515px;
+  height: 40px;
+}
+
+.btns {
+  background: linear-gradient(
+    to right,
+    rgb(60, 0, 87),
+    rgba(11, 11, 58, 0.897)
+  );
+}
+
+/* form image */
+#scoop-img {
+  position: relative;
+}
+
+#scoop-img img {
+  margin-left: 58%;
+  margin-top: -80%;
+  margin-bottom: -4%;
+  border-radius: 8px;
+  width: 40%;
+}
+
+#scoop-img-text {
+  color: white;
+  position: absolute;
+  top: 10%;
+  margin-left: 66%;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  #web-head h1 {
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  #web-head p {
+    margin-top: -3%;
+    color: white;
+    font-size: 14px;
+  }
+
+  #container {
+    background-color: rgba(65, 65, 65, 0.363);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15%;
+  }
+
+  #form-intro h3 {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  #form-intro p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -4%;
+    font-size: 12px;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .hide-br {
+    display: none;
+  }
+
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  #name-box {
+    /* margin-left: -5%; */
+    width: 70%;
+    height: 50px;
+  }
+
+  #info-box {
+    width: 70%;
+    height: 50px;
+  }
+
+  #message-box {
+    width: 70%;
+    height: 50px;
+  }
+
+  #scoop-img {
+    display: none;
+  }
+
+  #btn {
+    width: 32%;
+    height: 30px;
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: -1%;
+  }
+}
+@media screen and (max-width: 900px) {
+}
