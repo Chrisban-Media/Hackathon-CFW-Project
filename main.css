@@ -41,7 +41,7 @@ main {
 }
 
 #container {
-  background-color: rgba(65, 65, 65, 0.363);
+  background-color: rgba(65, 65, 65, 0.575);
   /* background: linear-gradient(
     to right,
     rgba(174, 0, 255, 0.112),
@@ -89,6 +89,7 @@ main {
 
 /* targeting the input in the contact list */
 #contact-form input {
+  color: white;
   margin-top: 10px;
   margin-left: 50px;
   background-color: rgba(255, 255, 255, 0.116);
@@ -104,6 +105,7 @@ main {
 
 #name-box:hover {
   background-color: rgb(255, 255, 255);
+  color: black;
 }
 
 /* this is the Email and Tel. box */
@@ -114,6 +116,7 @@ main {
 
 #info-box:hover {
   background-color: rgb(255, 255, 255);
+  color: black;
 }
 
 /* targeting the placeholder in the inputs */
@@ -122,19 +125,26 @@ main {
   padding-left: 3%;
 }
 
+#file-box {
+  width: 50%;
+  height: 50px;
+}
+
 /* the message box */
 #message-box {
   background-color: white;
   width: 508px;
   resize: none;
-  height: 45px;
+  height: 80px;
   border-radius: 8px;
   margin-top: 10px;
   margin-left: 50px;
+  color: black;
 }
 
 #message-box:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: black;
+  color: white;
 }
 
 /* the message me placeholder */
@@ -277,6 +287,7 @@ footer p {
     display: none;
   }
 
+  /* THE CONTACT FORM */
   #contact-form {
     display: flex;
     flex-direction: column;
@@ -284,7 +295,16 @@ footer p {
     align-items: center; */
   }
 
+  /* THE CONTACT FORM INPUT */
+  #contact-form input {
+    background-color: rgba(120, 120, 120, 0.594);
+  }
+
+  /* THE NAME BOX */
   #name-box {
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    color: black;
     /* margin-left: -5%; */
     width: 72%;
     height: 50px;
@@ -292,9 +312,12 @@ footer p {
 
   #name-box:hover {
     background-color: rgb(255, 255, 255);
+    color: black;
   }
 
+  /* THE EMAIL AND NUMBER BOX  */
   #info-box {
+    font-size: 17px;
     width: 72%;
     height: 50px;
   }
@@ -303,6 +326,18 @@ footer p {
     background-color: rgb(255, 255, 255);
   }
 
+  /* THE FILE UPLOAD BOX */
+  #file-box {
+    font-size: 17px;
+    color: black;
+    background-color: rgb(104, 104, 104);
+  }
+
+  #file-box:hover {
+    color: black;
+  }
+
+  /* THE MESSAGE BOX */
   #message-box {
     background-color: white;
     width: 72%;
@@ -311,12 +346,15 @@ footer p {
 
   #message-box:hover {
     background-color: rgb(255, 255, 255);
+    color: black;
   }
 
+  /* THE CONTACT FORM BACKGROUND IMAGE */
   #scoop-img {
     display: none;
   }
 
+  /* THE BUTTONS */
   .buttons {
     margin-left: 6%;
     margin-right: -2%;
@@ -349,36 +387,3 @@ footer p {
     display: none;
   }
 }
-
-/* ==== Tablets Media Queries */
-/* @media screen and (max-width: 900px) {
-  .imgs {
-    display: none;
-  }
-
-  #web-head h1:hover {
-    color: rgb(102, 0, 255);
-  }
-
-  #container {
-    background-image: url(images/ble.jpeg);
-    opacity: 80%;
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-
-  #name-box {
-    width: 85%;
-    height: 50px;
-  }
-
-  #info-box {
-    width: 85%;
-    height: 50px;
-  }
-
-  #message-box {
-    width: 85%;
-    height: 100%;
-  }
-} */
