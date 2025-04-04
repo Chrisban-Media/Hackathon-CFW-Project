@@ -1,5 +1,5 @@
 (function () {
-    emailjs.init("161H4uMvwcDP9hr4L"); 
+    emailjs.init("161H4uMvwcDP9hr4L"); // Replace with your EmailJS public key
 })();
 
 document.getElementById("contact-form").addEventListener("submit", function (event) {
@@ -7,11 +7,11 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
 
     // Get form values
     var templateParams = {
-        first_name: document.getElementById("name-box").value,
-        last_name: "", 
-        email: document.getElementById("info-box").value, 
-        phone: document.getElementById("info-box").value, 
-        message: document.getElementById("message-box").value 
+        first_name: document.getElementById("name-box").value, // Assuming first name
+        last_name: "", // No separate last name field in your form
+        email: document.getElementById("info-box").value, // Email input
+        phone: document.getElementById("info-box").value, // Phone input (should be a separate field)
+        message: document.getElementById("message-box").value // Message
     };
 
     emailjs.send("EguJaredoBoyd", "EguJaredoBoyd2", templateParams)
