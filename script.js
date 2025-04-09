@@ -1,26 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
-  emailjs.init("sk01ge5f4mHwbDolE");
+  emailjs.init("q9DH9N4sMIDIpAfs7");
 });
 // (function() {
 
 // })();
 
-document
-  .getElementById("contact-form").addEventListener("submit", function (event) {
-    // event.preventDefault();
+document.getElementById("contact-form").addEventListener("submit", function (event) {
+    event.preventDefault();
 
     // Get form values
-    var templateParams = {
-      first_name: document.getElementById("first-name").value,
-      last_name: document.getElementById("last-name").value,
-      email: document.getElementById("email").value,
-      phone: document.getElementById("phone").value,
-      message: document.getElementById("message").value,
-    };
-    var templateParams = {
-      from_name: first_name,
-
-      from_name: last_name,
+    let  first_name= document.getElementById("name-box").value;
+     let last_name= document.getElementById("last-name").value;
+     let email= document.getElementById("info-box").value;
+     let phone= document.getElementById("info-box").value;
+     let message= document.getElementById("message-box").value;
+    
+    let templateParams = {
+      from_name: first_name + " " + last_name,
       from_email: email,
       message: message,
       to_name: "Group A",
@@ -29,14 +25,14 @@ document
 
     emailjs.send("service_ga20tw6", "template_av9o39n", templateParams)
     .then(function (response) {
-      console.log("SUCCESS!", response.status, response.text);
       
-        alert("Message sent successfully!");
+      alert("Message sent successfully!");
+      console.log("SUCCESS!", response.status, response.text);
         document.getElementById("contact-form").reset();
-      },
-      function (error) {
+      })
+        .catch (function (error) {
+        alert("Failed to send message. Please try again." + error.text);
         console.log("FAILED...", error);
-          alert("Failed to send message. Please try again." + error.text);
-      }
-    );
-  });
+      });
+    });
+  
