@@ -307,6 +307,15 @@ footer p {
     height: 50px;
   }
 
+  #last-name {
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    /* margin-left: -5%; */
+    width: 72%;
+    height: 50px;
+  }
+
   #name-box:hover {
     background-color: rgb(255, 255, 255);
     color: black;
@@ -325,6 +334,8 @@ footer p {
 
   /* THE FILE UPLOAD BOX */
   #file-box {
+    width: 75%;
+    height: 80px;
     font-size: 17px;
     color: black;
     background-color: rgb(104, 104, 104);
