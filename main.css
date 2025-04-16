@@ -102,6 +102,10 @@ main {
   width: 22%;
   height: 50px;
 }
+#last-name {
+  width: 22%;
+  height: 50px;
+}
 
 #name-box:hover {
   background-color: rgb(255, 255, 255);
